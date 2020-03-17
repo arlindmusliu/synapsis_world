@@ -1,8 +1,8 @@
-<div class="bg-white shadow-lg flex items-center">
+<div class="bg-black flex items-center">
     <div class="container">
-        <div class="row py-6 justify-between">
+        <div class="row justify-between">
             <div class="col-6">
-                <p class="font-bold text-gray-800 text-2xl">Web Starter</p>
+                <img src="/assets/images/logo.png" alt="">
             </div>
 
             <div class="col-2 md:hidden block">
@@ -21,19 +21,19 @@
                 <ul class="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="#"
-                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Home</a>
+                            class="text-white block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Home</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="#"
-                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">About</a>
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">About</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="#"
-                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Pages</a>
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Pages</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="#"
-                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Contact</a>
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Contact</a>
                     </li>
                 </ul>
             </div>
