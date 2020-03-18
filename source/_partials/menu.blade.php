@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-between">
             <div class="col-6">
-                <img src="/assets/images/logo.png" alt="">
+                <img src="/assets/images/logo.svg" alt="">
             </div>
 
             <div class="col-2 md:hidden block">
@@ -17,22 +17,22 @@
 
             <input class="hidden" type="checkbox" id="menu-toggle" />
 
-            <div id="menu" class="md:col-6 hidden md:flex justify-center md:justify-end">
+            <div id="menu" class="md:col-6 hidden md:flex justify-center font-bold md:justify-end">
                 <ul class="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#"
+                        <a href="#home"
                             class="text-white block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Home</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#"
+                        <a href="#about"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">About</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#"
-                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Pages</a>
+                        <a href="/projects"
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Projects</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#"
+                        <a href="#contact"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Contact</a>
                     </li>
                 </ul>
