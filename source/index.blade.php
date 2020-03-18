@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<div class="container my-8">
+<div class="container my-8 pt-24">
     <div class="row" id="home">
         <div class="flex flex-col col-12 text-center">
             <h1 class="text-6xl text-gray-800">
@@ -152,85 +152,31 @@
     </div>
 </div>
 
-<div class="bg-gray-800">
-    <div class="container my-10 pt-6 pb-12">
-        <div class="row items-center text-center">
-            <div class="col-6">
-                <h2 class="mt-8 px-8 py-3 text-2xl text-white">
-                    Do you want to discuss your project with us ?                
-                </h2>
-            </div>
-            <div class="col-6">
-                <button class="mt-8 px-8 py-3 bg-white text-gray-800 rounded-lg">Contact us</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="flex-row">
-    <div class="container text-gray-800">
+<div class="flex-row bg-gray-800" id="projects">
+    <div class="container text-white py-20">
         <div class="flex-row">
-            <h1 class="text-4xl text-center font-bold mt-32">
+            <h1 class="text-4xl text-center font-bold">
                 Latest projects
             </h1>
         </div>
+        @foreach($projects as $project)
         <div class="row my-20 items-center">
             <div class="col-6">
-                <img src="/assets/images/project1.jpg" class="w-full h-auto rounded-lg" alt="">
+                <img src="{{ $project->cover }}" class="w-full h-auto rounded-lg" alt="">
             </div>
             <div class="col-6">
                 <h2 class="text-4xl">
-                    Entrepreneurship As A Tool For Youth Empowerment In Smaller Communities
+                    {{ $project->title }}
                 </h2>
                 <p class="mt-2">
-                    Supported by US Embassy Skopje
+                    Supported by <b>{{ $project->sponsor }}</b>
                 </p>
-                <button class="mt-8 px-8 py-3 bg-gray-800 text-white rounded-lg">LEARN MORE</button>
+                <a href="{{ $project->getUrl() }}">
+                <button class="mt-8 px-8 py-3 bg-white text-gray-800 rounded-lg">LEARN MORE</button>
+                </a>
             </div>
         </div>
-        <div class="flex flex-row items-center text-right my-20">
-            <div class="col-6">
-                <h2 class="text-4xl">
-                    Resilient Youth for Cohesive Communities
-                </h2>
-                <p class="mt-2">
-                    Supported by US Embassy Skopje & WorldChicago 
-                </p>
-                <button class="mt-8 px-8 py-3 bg-gray-800 text-white rounded-lg">LEARN MORE</button>
-            </div>
-            <div class="col-6">
-                <img src="/assets/images/project3.jpg" class="w-full h-auto" alt="">
-            </div>
-        </div>
-        <div class="row my-20 items-center">
-            <div class="col-6">
-                <img src="/assets/images/project2.jpg" class="w-full h-auto" alt="">
-            </div>
-            <div class="col-6">
-                <h2 class="text-4xl">
-                    Forum for youth Entrepreneurship
-                </h2>
-                <p class="mt-2">
-                    Supported by GEW North Macedonia
-                </p>
-                <button class="mt-8 px-8 py-3 bg-gray-800 text-white rounded-lg">LEARN MORE</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="bg-gray-800">
-    <div class="container my-10 pt-6 pb-12">
-        <div class="row items-center text-center">
-            <div class="col-6">
-                <h2 class="mt-8 px-8 py-3 text-2xl text-white">
-                    Interested to learn about all our work?
-                </h2>
-            </div>
-            <div class="col-6">
-                <button class="mt-8 px-8 py-3 bg-white text-gray-800 rounded-lg">Click to see all the projects</button>
-            </div>
-        </div>
+        @endforeach
     </div>
 </div>
 

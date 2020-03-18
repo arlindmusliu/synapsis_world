@@ -1,8 +1,10 @@
-<div class="bg-black flex items-center">
-    <div class="container">
+<div class="bg-black flex items-center mt-0 fixed w-full z-10 top-0">
+    <div class="sticky top-0 container">
         <div class="row justify-between">
             <div class="col-6">
-                <img src="/assets/images/logo.svg" alt="">
+                <a href="/">
+                    <img src="/assets/images/logo.svg" alt="">
+                </a>
             </div>
 
             <div class="col-2 md:hidden block">
@@ -20,19 +22,19 @@
             <div id="menu" class="md:col-6 hidden md:flex justify-center font-bold md:justify-end">
                 <ul class="flex w-full p-5 flex-col md:w-auto md:p-0 md:flex-row items-center">
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#home"
+                        <a href="/"
                             class="text-white block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent">Home</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#about"
+                        <a href="/#about"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">About</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="/projects"
+                        <a href="/#projects"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Projects</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
-                        <a href="#contact"
+                        <a href="/#contact"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Contact</a>
                     </li>
                 </ul>

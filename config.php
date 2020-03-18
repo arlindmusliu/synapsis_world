@@ -3,7 +3,13 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'siteName' => 'Web Starter',
-    'siteDescription' => 'Webstarter template with Jigsaw, Tailwind',
-    'collections' => [],
+    'siteName' => 'Synapsis World',
+    'siteDescription' => 'Center for Social Innovation & Sustainability',
+    'collections' => [
+        'projects' => [
+            'path' => 'projects/{filename}',
+            'sort' => '-date',
+            'extends' => '_layouts.project',
+        ]
+        ],
 ];
