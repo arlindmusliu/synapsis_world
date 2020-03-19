@@ -46,10 +46,10 @@
     </div>
 </div>
 <div class="bg-gray-800">
-    <div class="container">
+    <div class="container text-white">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-white text-4xl text-center mt-8"><b>Services that we provide</b></h2>
+                <h2 class="text-4xl text-center mt-8"><b>Services that we provide</b></h2>
                 </h2>
             </div>
         </div>
@@ -58,8 +58,8 @@
                 <img src="/assets/images/service1_img.svg" alt="service1-img" class="w-full h-auto">
             </div>
             <div class="col-7 ml-10">
-                <h2 class="text-white text-xl text-center"><b>What we do</b></h2>
-                <p class="mt-12 text-white text-justify">
+                <h2 class="text-xl text-center"><b>What we do</b></h2>
+                <p class="mt-12 text-justify">
                     Our organization focuses on three key areas to achieve its mission: Youth Empowerment,
                     Community Development, &Social Entrepreneurship. Within these themes, Synapsis World
                     seeks to provide various services that support our aim to promote youth inclusion in our society.
@@ -80,35 +80,59 @@
     </div>
     <div class="container py-24">
         <div class="flex flex-row items-center">
-            <div class="col-7">
-                <h2 class="text-white text-xl text text-center font-bold"> We value </h2>
-                <ul class="mt-10 mr-20 text-white text-justify">
-                    <li class="py-2">
-                        <b>Ambition:</b><br> Seeing opportunities where no one else does & having the drive to get things done.
-                    </li>
-                    <li class="py-2">
-                        <b>Cooperation:</b><br> Building relationships to join forces for the good of those around us.
-                    </li>
-                    <li class="py-2">
-                        <b>Creativity:</b><br> Practicing the art of problem solving & thinking outside of the box.
-                    </li>
-                    <li class="py-2">
-                        <b>Commitment:</b><br> Never starting something you can’t finish & always following through.
-                    </li>
-                    <li class="py-2">
-                        <b>Community:</b><br> The connections between people that celebrate difference, excite in what we share, and bring us together for a common aim.
-                    </li>
-                    <li class="py-2">
-                        <b>Support & Inclusion:</b><br> A belief that all people should have a seat at the table & allies that help them raise their voice.
-                    </li>
-                    <li class="py-2">
-                        <b>Social Entrepreneurship:</b><br> Institutions that build and take part in community, creating solutions to the problems we face while supporting others to do the same. 
-                    </li>
-                </ul>
-            </div>
-            <div class="col-5">
-                <img src="/assets/images/service2_img.svg" alt="service2-img" class="w-full h-auto">
-            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <h1 class="my-5 text-4xl font-bold text-white my-10">We value</h1>
+                        </div>
+                    </div>
+                    <div class="row my-4">
+                        <div class="lg:col-3 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Ambition</h2>
+                                <p>Seeing opportunities where no one else does & having the drive to get things done.</p>
+                            </div>
+                        </div>
+                        <div class="lg:col-3 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Cooperation</h2>
+                                <p>Building relationships to join forces for the good of those around us.</p>
+                            </div>
+                        </div>
+                        <div class="lg:col-3 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Creativity</h2>
+                                <p>Practicing the art of problem solving & thinking outside of the box.</p>
+                            </div>
+                        </div>
+                        <div class="lg:col-3 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Commitment</h2>
+                                <p>Never starting something you can’t finish & always following through.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row my-8">
+                        <div class="lg:col-4 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Community</h2>
+                                <p>The connections between people that celebrate difference, excite in what we share, and bring us together for a common aim.</p>
+                            </div>
+                        </div>
+                        <div class="lg:col-4 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Support & Inclusion</h2>
+                                <p>A belief that all people should have a seat at the table & allies that help them raise their voice.</p>
+                            </div>
+                        </div>
+                        <div class="lg:col-4 items-center text-center h-48">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                                <h2 class="font-bold">Social Entrepreneurship</h2>
+                                <p>Institutions that build and take part in community, creating solutions to the problems we face while supporting others to do the same.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 </div>
@@ -123,6 +147,12 @@
         <div class="row my-20 items-center">
             <div class="col-3 mx-10">
                 <img src="/assets/images/uslogo.svg" class="w-full h-auto" alt="">
+            </div>
+            <div class="col-3 mx-10">
+                <img src="/assets/images/worldlogo.svg" class="w-full h-auto" alt="">
+            </div>
+            <div class="col-3 mx-10">
+                <img src="/assets/images/dibralogo.svg" class="w-full h-auto" alt="">
             </div>
             <div class="col-3 mx-10">
                 <img src="/assets/images/lokalnastruga.svg" class="w-full h-auto" alt="">
@@ -140,13 +170,7 @@
                 <img src="/assets/images/globalaflogo.svg" class="w-full h-auto" alt="">
             </div>
             <div class="col-3 mx-10">
-                <img src="/assets/images/dibralogo.svg" class="w-full h-auto" alt="">
-            </div>
-            <div class="col-3 mx-10">
                 <img src="/assets/images/ceedlogo.svg" class="w-full h-auto" alt="">
-            </div>
-            <div class="col-3 mx-10">
-                <img src="/assets/images/worldlogo.svg" class="w-full h-auto" alt="">
             </div>
         </div>
     </div>
