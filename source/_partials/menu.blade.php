@@ -1,4 +1,4 @@
-<div class="bg-black flex items-center mt-0 fixed w-full z-10 top-0">
+<div class="bg-black flex items-center mt-0 fixed w-full z-30 top-0">
     <div class="sticky top-0 container">
         <div class="row justify-between">
             <div class="col-6">
@@ -28,6 +28,14 @@
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="/#about"
                             class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">About</a>
+                    </li>
+                    <li class="w-full md:w-auto md:mr-6">
+                        <a href="/#services"
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Services</a>
+                    </li>
+                    <li class="w-full md:w-auto md:mr-6">
+                        <a href="/#partners"
+                            class="block py-4 md:py-0 border-b border-gray-200 md:border-b-0 md:border-transparent text-white">Partners</a>
                     </li>
                     <li class="w-full md:w-auto md:mr-6">
                         <a href="/#projects"

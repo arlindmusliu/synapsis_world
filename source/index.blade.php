@@ -1,23 +1,28 @@
 @extends('_layouts.master')
 
 @section('body')
-<div class="container my-8 pt-24">
+{{-- <div class="container pt-20">
     <div class="row" id="home">
-        <div class="flex flex-col col-12 text-center">
-            <h1 class="text-6xl text-gray-800">
-                We build the future Entrepreneurs
-            </h1>
-            <img src="/assets/images/home_img.svg" alt="" class="w-full h-auto mt-12">
-        </div>
+    </div>
+</div> --}}
+<div class="bg-cover">
+    <div class="z-20 absolute pt-32 container text-6xl" style="top:20%; left:50%; transform: translate(-50%, -20%);">
+        <h1 class="text-gray-800">
+            We build the future Entrepreneurs
+        </h1>
+    </div>
+    <div class="relative inset-0 h-auto z-10">
+        <img src="/assets/images/front.jpg" alt="front" class="object-cover w-full">
     </div>
 </div>
-<div class="container my-32 text-gray-800">
-    <div class="row" id="about">
-        <div class="col-5 pt-20">
-            <img src="/assets/images/welcome_img.svg" alt="" class="w-full h-auto">
+
+<div class="container py-24 text-gray-800" id="about">
+    <div class="row">
+        <div class="col-5">
+            <img src="/assets/images/about.jpg" alt="" class="w-full h-auto">
         </div>
         <div class="col-6 ml-10">
-            <h2 class="text-3xl my-4">
+            <h2 class="text-3xl mb-4">
                 <b>Welcome to Synapsis World</b>
             </h2>
             <h2 class="text-xl">
@@ -45,19 +50,19 @@
         </div>
     </div>
 </div>
-<div class="bg-gray-800">
+<div class="bg-gray-800 py-20" id="services">
     <div class="container text-white">
         <div class="row">
             <div class="col-12">
-                <h2 class="text-4xl text-center mt-8"><b>Services that we provide</b></h2>
+                <h2 class="text-4xl text-center mb-8"><b>Services that we provide</b></h2>
                 </h2>
             </div>
         </div>
-        <div class="flex flex-row items-center mt-12">
-            <div class="col-5">
-                <img src="/assets/images/service1_img.svg" alt="service1-img" class="w-full h-auto">
+        <div class="flex flex-row items-center">
+            <div class="col-6">
+                <img src="/assets/images/offer.jpg" alt="service1-img" class="w-full h-auto">
             </div>
-            <div class="col-7 ml-10">
+            <div class="col-6">
                 <h2 class="text-xl text-center"><b>What we do</b></h2>
                 <p class="mt-12 text-justify">
                     Our organization focuses on three key areas to achieve its mission: Youth Empowerment,
@@ -78,35 +83,37 @@
             </div>
         </div>
     </div>
-    <div class="container py-24">
+</div>
+<div>
+    <div class="container py-12">
         <div class="flex flex-row items-center">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h1 class="my-5 text-4xl font-bold text-white my-10">We value</h1>
+                            <h1 class="my-5 text-4xl font-bold text-gray-800 my-10">We value</h1>
                         </div>
                     </div>
                     <div class="row my-4">
                         <div class="lg:col-3 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Ambition</h2>
                                 <p>Seeing opportunities where no one else does & having the drive to get things done.</p>
                             </div>
                         </div>
                         <div class="lg:col-3 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Cooperation</h2>
                                 <p>Building relationships to join forces for the good of those around us.</p>
                             </div>
                         </div>
                         <div class="lg:col-3 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Creativity</h2>
                                 <p>Practicing the art of problem solving & thinking outside of the box.</p>
                             </div>
                         </div>
                         <div class="lg:col-3 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Commitment</h2>
                                 <p>Never starting something you can’t finish & always following through.</p>
                             </div>
@@ -114,19 +121,19 @@
                     </div>
                     <div class="row my-8">
                         <div class="lg:col-4 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Community</h2>
                                 <p>The connections between people that celebrate difference, excite in what we share, and bring us together for a common aim.</p>
                             </div>
                         </div>
                         <div class="lg:col-4 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Support & Inclusion</h2>
                                 <p>A belief that all people should have a seat at the table & allies that help them raise their voice.</p>
                             </div>
                         </div>
                         <div class="lg:col-4 items-center text-center h-48">
-                            <div class="my-2 lg:my-0 px-6 py-8 bg-white rounded text-gray-800 min-h-full">
+                            <div class="my-2 lg:my-0 px-6 py-8 bg-gray-800 rounded text-white min-h-full">
                                 <h2 class="font-bold">Social Entrepreneurship</h2>
                                 <p>Institutions that build and take part in community, creating solutions to the problems we face while supporting others to do the same.</p>
                             </div>
@@ -137,14 +144,14 @@
     </div>
 </div>
 
-<div class="flex-row">
+<div class="flex-row pt-24" id="partners">
     <div class="container text-gray-800">
         <div class="flex-row">
-            <h1 class="text-4xl text-center font-bold mt-32">
+            <h1 class="text-4xl text-center font-bold">
                 Our Partners
             </h1>
         </div>
-        <div class="row my-20 items-center">
+        <div class="row my-16 items-center">
             <div class="col-3 mx-10">
                 <img src="/assets/images/uslogo.svg" class="w-full h-auto" alt="">
             </div>
