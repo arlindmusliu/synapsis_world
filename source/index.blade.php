@@ -13,10 +13,10 @@
 </div>
 <div class="container my-32 text-gray-800">
     <div class="row" id="about">
-        <div class="col-6">
+        <div class="col-5 pt-20">
             <img src="/assets/images/welcome_img.svg" alt="" class="w-full h-auto">
         </div>
-        <div class="col-6">
+        <div class="col-6 ml-10">
             <h2 class="text-3xl my-4">
                 <b>Welcome to Synapsis World</b>
             </h2>

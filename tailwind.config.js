@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     fontFamily: {
-      'sans': 'Montserrat, sans-serif -apple-system, BlinkMacSystemFont',
+      'sans': 'Poppins, -apple-system, BlinkMacSystemFont',
     },
     extend: {}
   },

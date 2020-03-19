@@ -415,7 +415,7 @@ ul {
  */
 
 html {
-  font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont; /* 1 */
+  font-family: Poppins, -apple-system, BlinkMacSystemFont; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -3758,7 +3758,7 @@ video {
 }
 
 .font-sans {
-  font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont;
 }
 
 .font-hairline {
@@ -17477,7 +17477,7 @@ video {
   }
 
   .sm\:font-sans {
-    font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont;
   }
 
   .sm\:font-hairline {
@@ -31105,7 +31105,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont;
   }
 
   .md\:font-hairline {
@@ -44733,7 +44733,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont;
   }
 
   .lg\:font-hairline {
@@ -58361,7 +58361,7 @@ video {
   }
 
   .xl\:font-sans {
-    font-family: Montserrat, sans-serif -apple-system, BlinkMacSystemFont;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont;
   }
 
   .xl\:font-hairline {
