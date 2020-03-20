@@ -1,13 +1,13 @@
 <div class="bg-black flex items-center mt-0 fixed w-full z-30 top-0">
     <div class="sticky top-0 container">
-        <div class="row justify-between">
+        <div class="row items-center justify-between">
             <div class="col-6">
                 <a href="/">
                     <img src="/assets/images/logo.svg" alt="">
                 </a>
             </div>
 
-            <div class="col-2 md:hidden block">
+            <div class="col-2 i md:hidden block">
                 <label for="menu-toggle" class="cursor-pointer">
                     <svg class="fill-current text-gray-800 w-8 h-8" xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20">

@@ -17,7 +17,7 @@
     </div>
 </div>
 
-<div class="container my-24 text-gray-800" id="about">
+<div class="container my-16 lg:my-24 text-gray-800" id="about">
     <div class="row">
         <div class="lg:col-5">
             <img src="/assets/images/about.jpg" alt="about-img" class="w-full h-auto">
@@ -59,7 +59,7 @@
         </div>
     </div>
 </div>
-<div class="bg-gray-800 py-20" id="services">
+<div class="bg-gray-800 py-16 lg:py-20" id="services">
     <div class="container text-white">
         <div class="row">
             <div class="lg:col-12">
@@ -105,12 +105,12 @@
     </div>
 </div>
 <div>
-    <div class="container my-12">
+    <div class="container my-10 lg:my-12">
         <div class="flex flex-row items-center">
             <div class="container">
                 <div class="row">
                     <div class="lg:col-12 text-center">
-                        <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 my-10">We value</h1>
+                        <h1 class="text-3xl lg:text-4xl font-bold text-gray-800 my-8 lg:my-10">We value</h1>
                     </div>
                 </div>
                 <div class="row my-4">
@@ -167,7 +167,7 @@
     </div>
 </div>
 
-<div class="flex-row pt-24" id="partners">
+<div class="flex-row pt-16 lg:pt-24" id="partners">
     <div class="container text-gray-800">
         <div class="flex-row text-center">
             <h1 class="text-3xl lg:text-4xl text-center font-bold">
@@ -207,7 +207,7 @@
 </div>
 
 <div class="flex-row bg-gray-800" id="projects">
-    <div class="container text-white py-20">
+    <div class="container text-white py-16 lg:py-20">
         <div class="flex-row">
             <h1 class="text-3xl lg:text-4xl text-center font-bold">
                 Latest projects
@@ -234,7 +234,7 @@
     </div>
 </div>
 
-<div class="container mt-40 mb-10 text-gray-800">
+<div class="container mt-20 mb-8 lg:mt-40 lg:mb-10 text-gray-800">
     <div class="row" id="contact">
         <div class="lg:col-4">
             <img src="/assets/images/logo.svg" class="w-full h-auto" alt="">
