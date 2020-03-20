@@ -7,8 +7,8 @@
     <div class="container mb-16">
         <div class="row">
             <div class="col-8">
-                <h1 class="font-bold text-4xl text-yellow-500">{{ $page->title }}</h1>
-                <p class="font-medium text-base text-white">Supported by <b>{{ $page->sponsor }}</b></p>
+                <h1 class="font-bold text-2xl lg:text-4xl text-yellow-500">{{ $page->title }}</h1>
+                <p class="font-medium text-xs lg:text-base text-white">Supported by <b>{{ $page->sponsor }}</b></p>
             </div>
         </div>
     </div>
@@ -18,7 +18,7 @@
     <div class="container text-gray-800">
         <div class="row mt-10 items-center">
             @foreach ($page->images as $images)
-            <div class="col-4 px-10 my-10">
+            <div class="lg:col-4 px-10 my-10">
                 <img src="{{ $images }}" class="w-full h-auto" alt="">
             </div>
             @endforeach
